@@ -11,26 +11,13 @@ This project uses a pretrained BERT transformer model for classifying news as fa
 - `fakeNewsDetection.ipynb`: Jupyter notebook for training the model.
 - `modelEval.ipynb`: Jupyter notebook for evaluating the model.
 
-## Requirements
-
-- Python 3.9
-- PyTorch
-- Transformers
-- scikit-learn
-- pandas
-
 ## Installation
 
 1. Clone the repository:
 
+2. Install the required packages by using command:
    ```sh
-   git clone <repository_url>
-   cd <repository_directory>
-   ```
-
-2. Install the required packages:
-   ```sh
-   pip install torch transformers scikit-learn pandas
+      pip install -r requirements.txt
    ```
 
 ## Training the Model
